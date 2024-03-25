@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="soumik ecommers project for myself" />
+    <link rel="stylesheet" href="/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="/fontawesome-free-6.5.1-web/css/fontawesome.min.css"
+    />
+    <title>Ecommers project</title>
+  </head>
+  <body>
+    <!-- navbar starts here  -->
+    <nav>
+      <ul class="nav-upper flex-space-around">
+        <li class="nav-list"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-list">
+          <a href="register.html" class="nav-link">Resister</a>
+        </li>
+        <li class="nav-list">
+          <a href="login.html" class="nav-link">Login</a>
+        </li>
+        <li class="nav-list">
+          <a href="index.html" class="nav-link">Logout</a>
+        </li>
+        <li class="nav-list">
+          <a href="contact.html" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-list">
+          <a href="profile.html" class="nav-link">
+            <img
+              class="profile-icon"
+              src="330535750_3079310569032589_7176328657784153008_n.jpg"
+              alt=""
+            />
+          </a>
+        </li>
+      </ul>
+
+      <ul class="nav-lower flex-space-around">
+        <li class="nav-brand nav-list">
+          <a href="" class="nav-link">Soumik Express</a>
+        </li>
+        <li class="nav-list">
+          <a href="cart.html" class="nav-link">
+            <span><i class="fa-solid fa-cart-shopping"> </i></span>
+            Cart 2 product - $124.34
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- navbar ends here  -->
+
+    <main>
+      <div class="cart flex-center">
+        <div class="cart-items">
+          <div class="cart-items-heading card">
+            <h2>Shopping Cart [2 Items]</h2>
+            <div class="cart-items-action">
+              <label for="checkbox" name="select" id="select"
+                >Select All Items</label
+              >
+              <button class="btn">
+                <i class="fas fa-trash-alt"></i>
+              </button>
+              <button class="btn">Shop More</button>
+            </div>
+          </div>
+
+          <div class="cart-item card flex-space-around">
+            <input type="checkbox" />
+            <img class="cart-item-img" src="amz3.jpg" alt="" />
+            <div class="card-item-description">
+              <h3 class="product-name">Sunny Telivision</h3>
+              <h4 class="product-price">price: $232.89</h4>
+              <p class="cart-item-shipping">Free Shipping</p>
+            </div>
+            <div class="cart-item--action">
+              <button class="cart-btn"><i class="fas fa-trash-alt"></i></button>
+
+              <div>
+                <button class="btn"><i class="fas fa-add"></i></button>
+                <span>3</span>
+                <button class="btn"><i class="fas fa-minus"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="cart-item card flex-space-around">
+            <input type="checkbox" />
+            <img class="cart-item-img" src="amz1.jpg" alt="" />
+            <div class="card-item-description">
+              <h3 class="product-name">Abrar's Stolen Watch</h3>
+              <h4 class="product-price">price: $342.89</h4>
+              <p class="cart-item-shipping">Free Shipping</p>
+            </div>
+            <div class="cart-item--action">
+              <button class="cart-btn"><i class="fas fa-trash-alt"></i></button>
+
+              <div>
+                <button class="btn"><i class="fas fa-add"></i></button>
+                <span>3</span>
+                <button class="btn"><i class="fas fa-minus"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="cart-item card flex-space-around">
+            <input type="checkbox" />
+            <img class="cart-item-img" src="amz4.png" alt="" />
+            <div class="card-item-description">
+              <h3 class="product-name">Weather meter</h3>
+              <h4 class="product-price">price: $42.89</h4>
+              <p class="cart-item-shipping">Paid Shipping</p>
+            </div>
+            <div class="cart-item--action">
+              <button class="cart-btn"><i class="fas fa-trash-alt"></i></button>
+
+              <div>
+                <button class="btn"><i class="fas fa-add"></i></button>
+                <span>3</span>
+                <button class="btn"><i class="fas fa-minus"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-payment">
+          <div class="cart-payment-summary card">
+            <h2>Payment Summary</h2>
+            <div>
+              <p>subtotal:</p>
+              <p>$348.89</p>
+            </div>
+            <div>
+              <p>Shipping cost:</p>
+              <p>$48.89</p>
+            </div>
+            <div>
+              <p>total cost:</p>
+              <p>$358.23</p>
+            </div>
+            <button class="btn cart-payment-btn">
+              Pay Now
+            </button>
+          </div>
+
+          <div class="cart-payment-methods card">
+            <h2>Payment Methods</h2>
+            <div>
+              <i style="color: #f368e0;" class="fa-brands fa-cc-visa fa-4x"></i>
+              <i style="color: #1dd1a1;" class="fa-brands fa-cc-apple-pay fa-4x"></i>
+              <i style="color: #576574;" class="fa-brands fa-cc-amex fa-4x"></i>
+              <i style="color: #2e86de;" class="fa-brands fa-cc-amazon-pay fa-4x"></i>
+              <i style="color: #5f27cd;" class="fa-brands fa-cc-paypal fa-4x"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- footer starts here -->
+
+    <footer class="footer flex-space-around">
+      <div class="flex-space-around">
+        <label for="subscribe">Subscribe to Newsletter: </label>
+        <input
+          type="email"
+          id="subscribe"
+          name="subscribe"
+          class="footer-input"
+          placeholder="Your Email Address"
+        />
+        <button class="btn btn-subscribe">Subscribe</button>
+      </div>
+
+      <div>
+        <p>&copy: Copyright 2024 Soumik Express</p>
+      </div>
+    </footer>
+
+    <!-- footer ends here -->
+  </body>
+</html>

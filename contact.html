@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="soumik ecommers project for myself" />
+    <link rel="stylesheet" href="/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="/fontawesome-free-6.5.1-web/css/fontawesome.min.css"
+    />
+    <title>Ecommers project</title>
+  </head>
+  <body>
+    <!-- navbar starts here  -->
+    <nav>
+      <ul class="nav-upper flex-space-around">
+        <li class="nav-list"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-list">
+          <a href="register.html" class="nav-link">Resister</a>
+        </li>
+        <li class="nav-list">
+          <a href="login.html" class="nav-link">Login</a>
+        </li>
+        <li class="nav-list">
+          <a href="index.html" class="nav-link">Logout</a>
+        </li>
+        <li class="nav-list">
+          <a href="contact.html" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-list">
+          <a href="profile.html" class="nav-link">
+            <img
+              class="profile-icon"
+              src="330535750_3079310569032589_7176328657784153008_n.jpg"
+              alt=""
+            />
+          </a>
+        </li>
+      </ul>
+
+      <ul class="nav-lower flex-space-around">
+        <li class="nav-brand nav-list">
+          <a href="" class="nav-link">Soumik Express</a>
+        </li>
+        <li class="nav-list">
+          <a href="cart.html" class="nav-link">
+            <span><i class="fa-solid fa-cart-shopping"> </i></span>
+            Cart 2 product - $124.34
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- navbar ends here  -->
+
+    <main>
+      <section class="contact-section">
+        <h2 class="contact-section-title text-center">Contact Us</h2>
+        <div class="contact-container flex-center">
+          <form action="" class="form">
+            <div class="form-control flex-center">
+              <label for="name">Name</label>
+              <input type="text" id="name" required autocomplete="name" />
+            </div>
+
+            <div class="form-control flex-center">
+              <label for="email">Email</label>
+              <input type="email" id="email" required autocomplete="email" />
+            </div>
+
+            <div class="form-control flex-center">
+              <label for="massage">Massage</label>
+              <textarea name="massage" id="massage"> </textarea>
+            </div>
+
+            <div class="form-control flex-center form-btn-field">
+              <button type="submit" class="btn contact-btn">submit</button>
+            </div>
+          </form>
+          <div class="contact-address flex-space-around">
+            <address>
+              <h4>Address</h4>
+              <p>123 high street</p>
+              <p>Savar,Dhaka</p>
+              <br />
+
+              <span>Call: </span>
+              <a href="tel: 01732493257">+01732493257</a>
+            </address>
+
+            <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2169.664185238326!2d90.26299588697599!3d23.856773007822238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x3755ebd3d6df9569%3A0x277b3819d4da3e91!2sSavar!3m2!1d23.8479013!2d90.257699!4m5!1s0x3755ea2a834796cb%3A0x5bac0007672b71c1!2sRadio%20Colony%20Rd%2C%20Savar!3m2!1d23.8578761!2d90.2640617!5e0!3m2!1sen!2sbd!4v1711387563991!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer starts here -->
+
+    <footer class="footer flex-space-around">
+      <div class="flex-space-around">
+        <label for="subscribe">Subscribe to Newsletter: </label>
+        <input
+          type="email"
+          id="subscribe"
+          name="subscribe"
+          class="footer-input"
+          placeholder="Your Email Address"
+        />
+        <button class="btn btn-subscribe">Subscribe</button>
+      </div>
+
+      <div>
+        <p>&copy: Copyright 2024 Soumik Express</p>
+      </div>
+    </footer>
+
+    <!-- footer ends here -->
+  </body>
+</html>
